@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel to JSON CRUD App</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+  <h1>Excel to JSON CRUD</h1>
+  <input type="file" id="excelFile" />
+  <button onclick="downloadJSON()">Download JSON</button>
+  <br><br>
+  <table id="dataTable"></table>
+
+  <script src="script.js"></script>
+</body>
+</html>
